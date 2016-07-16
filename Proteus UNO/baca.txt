@@ -1,0 +1,21 @@
+1. Copas ARDUINO.LIB and ARDUINO.IDX to folder ' library' in the install directory Proteus .
+2. Open the ISIS in component mode ARDUINO typing on the device column selector .
+3. put the image into the field of labor Arduino ISIS
+4. add LEDs or other components of what we want to create .
+5. Click the image 2x TSB arduino . then the contents of the file * .hex or * .ELF
+   / * different it: * .hex not display the source code such as * .ELF when simulated .
+   ( problem solved : ) )
+   get from here gan : http://www.thinkcreate.org/index.php/debug-arduino-with-proteus/
+   * /
+
+easy way to get the * .hex or * .ELF / DWARF of Arduino :
+click ' verify ' while pressing ' shift' will appear where the * .hex or * .ELF they will be .
+
+note : when nambahin components in ISIS , make sure the properties of the diode and the resistor " DIGITAL " and avoid component pspice
+because it will influence the speed ISIS simulation.
+
+Proteus also make sure its already installed for AVR KEY , KEY klo not have it, copy and paste files into a folder AVR2.dll MODEL
+and AVR2.LIB and AVR2.IDX LIBRARY folder .
+
+Thanks , enjoy it
+viranha@blogspot.com
